@@ -151,6 +151,8 @@ TW_MTP_DEVICE := "Galaxy A03 Core"
 TW_LOAD_VENDOR_MODULES := "chipone-tddi.ko chipone-tddi_ss.ko focaltech_ts.ko ilitek-tddi.ko gcore_ss.ko nt36xxx_ss.ko"
 TW_LOAD_VENDOR_BOOT_MODULES := true
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_FBE := true
 
 
 # Making the recovery.img smaller
