@@ -2,7 +2,7 @@
 /system_image		emmc		/dev/block/mapper/system							flags=backup=0;flashimg;display="System Image"
 /vendor_image		emmc		/dev/block/mapper/vendor							flags=backup=0;flashimg;display="Vendor Image"
 /product_image  emmc		/dev/block/mapper/product							flags=backup=0;flashimg;display="Product Image"
-/system_image   emmc	/dev/block/mapper/system_ext						flags=backup=0;flashimg;display="System_ext Image"
+/system_image   emmc 	/dev/block/mapper/system_ext						flags=backup=0;flashimg;display="System_ext Image"
 
 # FOTA
 /ltemodem       emmc        /dev/block/by-name/l_modem                          flags=backup=1;display="ltemodem"
